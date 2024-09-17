@@ -14,7 +14,7 @@ public class EmailController {
 
     @GetMapping("/sendmail")
     public String sendMail() {
-        emailUtil.sendEmail("getinthere@naver.com", "스프링을 이용한 메일 전송", "되는지 테스트 하는 거예요");
+        emailUtil.sendEmail("compilemate@gmail.com", "[Tistory 인증메일]", "되는지 테스트 하는 거예요");
         return "메일 잘 보내졌어";
     }
 }

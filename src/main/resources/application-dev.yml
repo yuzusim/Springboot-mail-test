@@ -1,0 +1,22 @@
+server:
+  servlet:
+    session:
+      tracking-modes: cookie
+    encoding:
+      charset: utf-8
+      force: true
+  port: 8080
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: compilemate@gmail.com
+    password: w f e o bi u h p m c c w g r q
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          auth: true
